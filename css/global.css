@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+:root {
+    --primary: #0167ff;
+    --white: #fff;
+    --light-grey: #f5f5f5;
+    --black: #000;
+    --boxShadow: 0px 3px 6px #00000029;
+    --overlay: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 24%, rgba(0,0,0,0) 70%);
+    --overlayVertical: linear-gradient(to top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 24%, rgba(0,0,0,0) 70%);
+    --transition: all .25s ease-in-out;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Poppins;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+}
+
+/* FONTS */
+h1,
+h2,
+h3 {
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 52px;
+}
+
+h2 {
+    font-size: 42px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+a:hover {
+
+}
+
+p {
+    font-size: 16px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* BUILDING BLOCKS */
+.hidden {
+    display: none;
+}
+
+.section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section.black {
+    background-color: var(--black);
+}
+
+.section.grey {
+    background-color: var(--light-grey);
+}
+
+.section .row {
+    width: 100%;
+    max-width: 1600px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin: 60px auto;
+    padding: 0 30px;
+}
+
+.section .row.reverse {
+    flex-flow: row-reverse wrap;
+}
+
+.section .row.flex-col {
+    flex-direction: column;
+}
+
+.section .row .col {
+    flex: 1 0 350px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.btn {
+    width: fit-content;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    color: var(--white);
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    border-radius: 9px;
+    padding: 10px 15px;
+    transition: var(--transition); 
+}
+
+.btn:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: var(--transition);
+}
+
+.btn.white {
+    background-color: var(--white);
+    color: var(--black);
+    border-color: var(--white);
+}
+
+.btn.ghost {
+    background-color: transparent;
+    color: var(--primary);
+    border: 1px solid var(--primary);
+}
+
+.btn.ghost.white {
+    color: var(--white);
+    border: 1px solid var(--white);
+}
+
+.btn.ghost:hover {
+
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+}
+
+.wrapper .item {
+    flex: 1 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* CONTACT */
+.section.contact {
+    background-color: var(--light-grey);
+}
+
+.section.contact h2 {
+    max-width: 45%;
+}
+
+.section.contact .row.flex-col {
+    align-items: flex-start;
+}
+
+.section.contact {
+    background-image: url('/img/contact-image.jpg');
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.section.contact .form-wrapper {
+    display: flex;
+    width: 40%;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: var(--white);
+    box-shadow: var(--boxShadow);
+}
+
+.section.contact .form-wrapper form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+}
+
+.section.contact .form-wrapper input {
+    color: var(--black);
+    flex: 1;
+    width: 100%;
+    padding: 16px;
+    background-color: hsla(0, 0%, 100%, 0.1);
+    border: none;
+    border-bottom: 1px solid var(--background-accent);
+    border-radius: 0;
+    height: 60px;
+    outline: none;
+    font-size: 18px;
+    transition: border-bottom 200ms ease;
+}
+
+.section.contact .form-wrapper input:focus {
+    transition: border-bottom 200ms ease;
+    border-bottom: 2px solid var(--primary);
+}
+
+.section.contact .form-wrapper .btn {
+    color: var(--white);
+    background-color: var(--primary);
+    border-bottom: 1px solid var(--primary);
+    transition: border-bottom 200ms ease;
+    transition: var(--transition);
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+.section.contact .form-wrapper .btn:hover {
+    transform: scale(1.02);
+}
+
+@media (max-width: 1000px) {
+    .section.contact {
+        background-image: unset;
+    }
+
+    .section.contact h2 {
+        max-width: 100%;
+    }
+
+    .section.contact .form-wrapper {
+        width: 100%;
+    }
+}
