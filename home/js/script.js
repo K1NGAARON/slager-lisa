@@ -52,6 +52,5 @@ function prev() {
             count = count + screen.width;
         }
     }
-    console.log(inc)
     slider.style.left = count + "px";
 }
