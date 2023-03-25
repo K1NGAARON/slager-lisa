@@ -57,14 +57,14 @@
 
 .header .container .nav {
     color: var(--white);
-    opacity: 0.5;
+    opacity: 1;
     font-weight: 700;
     text-decoration: none;
     transition: var(--transition);
 }
 
 .header .container .nav:hover {
-    opacity: 1;
+    /* opacity: 1; */
     transition: var(--transition);
 }
 

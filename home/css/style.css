@@ -23,3 +23,9 @@
     width: 50%;
     z-index: 4;
 }
+
+.contact.section .wrapper {
+    flex-direction: column;
+
+    background-image: url('/home/img/contact.jpg');
+}

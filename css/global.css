@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 :root {
-    --primary: #0167ff;
+    --primary: #43280D;
     --white: #fff;
     --light-grey: #f5f5f5;
     --black: #000;
     --boxShadow: 0px 3px 6px #00000029;
-    --overlay: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 24%, rgba(0,0,0,0) 70%);
+    /* --overlay: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 24%, rgba(0,0,0,0) 70%); */
+    --overlay: var(--black);
     --overlayVertical: linear-gradient(to top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 24%, rgba(0,0,0,0) 70%);
     --transition: all .25s ease-in-out;
 }
@@ -168,7 +169,8 @@ img {
 
 .overlay {
     background: var(--overlay);
-    opacity: 0.8;
+    /* opacity: 0.8; */
+    opacity: 0.6;
     position: absolute;
     top: 0;
     right: 0;
@@ -180,10 +182,6 @@ img {
 }
 
 /* CONTACT */
-.section.contact {
-    background-color: var(--light-grey);
-}
-
 .section.contact h2 {
     max-width: 45%;
 }
@@ -201,7 +199,7 @@ img {
 
 .section.contact .form-wrapper {
     display: flex;
-    width: 40%;
+    width: 80%;
     padding: 30px;
     border-radius: 30px;
     background-color: var(--white);
