@@ -1,0 +1,25 @@
+.banner.section {
+    background-image: url('/home/img/banner.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    position: relative;
+}
+
+.banner.section,
+.banner.section .row {
+    height: 80vh;
+}
+
+.banner.section .row {
+    align-items: flex-start;
+    gap: 20px;
+    z-index: 4;
+}
+
+.banner.section h1,
+.banner.section p {
+    color: var(--white);
+    width: 50%;
+    z-index: 4;
+}
