@@ -57,3 +57,7 @@
 .contact.section .wrapper i {
     margin-right: 5px;
 }
+
+.gallery.section {
+    background-color: var(--primary);
+}
