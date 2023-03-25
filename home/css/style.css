@@ -61,3 +61,8 @@
 .gallery.section {
     background-color: var(--primary);
 }
+
+.gallery.section .row {
+    gap: 20px;
+    padding: 0;
+}
