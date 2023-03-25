@@ -24,8 +24,36 @@
     z-index: 4;
 }
 
+.contact.section .col:nth-child(1) {
+    flex: 1 0;
+}
+
+.contact.section .col:nth-child(2) {
+    flex: 2 0;
+}
+
 .contact.section .wrapper {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    height: 60vh;
 
     background-image: url('/home/img/contact.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.contact.section .wrapper * {
+    color: var(--white);
+    text-align: center;
+}
+
+.contact.section .wrapper a {
+    font-weight: 700;
+}
+
+.contact.section .wrapper i {
+    margin-right: 5px;
 }

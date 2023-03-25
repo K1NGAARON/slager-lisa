@@ -201,7 +201,7 @@ img {
     display: flex;
     width: 80%;
     padding: 30px;
-    border-radius: 30px;
+    border-radius: 3px;
     background-color: var(--white);
     box-shadow: var(--boxShadow);
 }
@@ -221,7 +221,7 @@ img {
     padding: 16px;
     background-color: hsla(0, 0%, 100%, 0.1);
     border: none;
-    border-bottom: 1px solid var(--background-accent);
+    border-bottom: 1px solid var(--primary);
     border-radius: 0;
     height: 60px;
     outline: none;
