@@ -53,10 +53,6 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-
-}
-
 p {
     font-size: 16px;
 }
@@ -148,10 +144,6 @@ img {
 .btn.ghost.white {
     color: var(--white);
     border: 1px solid var(--white);
-}
-
-.btn.ghost:hover {
-
 }
 
 .wrapper {
