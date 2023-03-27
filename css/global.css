@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 :root {
-    --primary: #43280D;
+    --primary: #b13922;
     --white: #fff;
     --light-grey: #f5f5f5;
-    --black: #000;
+    --black: #363536;
     --boxShadow: 0px 3px 6px #00000029;
     /* --overlay: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 24%, rgba(0,0,0,0) 70%); */
     --overlay: var(--black);
