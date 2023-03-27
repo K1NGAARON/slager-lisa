@@ -66,3 +66,14 @@
     gap: 20px;
     padding: 0;
 }
+
+@media (max-width: 560px) {
+    .banner.section h1, 
+    .banner.section p {
+        width: 100%;
+    }
+
+    .banner.section h1 {
+        font-size: 36px;
+    }
+}
