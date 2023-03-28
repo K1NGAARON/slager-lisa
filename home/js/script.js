@@ -39,6 +39,7 @@ function next() {
         }
     }
     slider.style.left = count + "px";
+    // slider.style.left =- 400 + "px";
 }
 
 function prev() {
@@ -53,4 +54,5 @@ function prev() {
         }
     }
     slider.style.left = count + "px";
+    // slider.style.left =+ 400 + "px";
 }
