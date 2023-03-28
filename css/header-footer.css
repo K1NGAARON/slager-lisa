@@ -40,7 +40,8 @@
 
 .header .logo,
 .footer .logo {
-    width: 125px;
+    width: 100px;
+    border-radius: 50%;
 }
 
 .header .nav-logo {

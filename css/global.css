@@ -62,6 +62,10 @@ img {
     height: auto;
 }
 
+img.bg-color {
+    box-shadow: 8px 8px 0px 2px var(--primary);
+}
+
 /* BUILDING BLOCKS */
 .hidden {
     display: none;
@@ -160,9 +164,8 @@ img {
 }
 
 .overlay {
-    background: var(--overlay);
-    /* opacity: 0.8; */
-    opacity: 0.6;
+    background: var(--primary);
+    opacity: 0.3;
     position: absolute;
     top: 0;
     right: 0;
