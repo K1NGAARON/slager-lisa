@@ -38,12 +38,20 @@
     align-items: center;
     justify-content: center;
     padding: 60px;
-    height: 60vh;
+    height: fit-content;
 
     background-image: url('/home/img/contact.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+}
+
+.contact.section .wrapper .bold {
+    font-weight: 700;
+}
+
+.contact.section .wrapper .overlay {
+    opacity: 0.8;
 }
 
 .contact.section .wrapper * {
