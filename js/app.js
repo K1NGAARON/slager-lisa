@@ -4,10 +4,8 @@ $(document).scroll(function () {
     const logo = $('.header .logo');
 
     if ($(this).scrollTop() > header.height()) {
-        // $(logo).attr("src","/branding/logo/logo-black.png");
         header.addClass('active');
     } else {
-        // $(logo).attr("src","/branding/logo/logo-white.png");
         header.removeClass('active');
     }
 });
