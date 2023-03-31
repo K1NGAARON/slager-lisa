@@ -2,29 +2,22 @@
     position: relative;
     overflow-x: hidden;
     width: 100%;
-    height: 200px;
+    height: 50vh;
 }
 
 .slider-container .slider-width {
+    height: 50vh;
     position: absolute;
     display: flex;
     align-items: start;
     justify-content: start;
+    gap: 40px;
     left: 0;
     top: 0;
     transition: 0.4s ease-in-out;
 }
 
-.slider-container .item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 300px;
-    height: 200px;
-    margin: 0 10px;
-}
-
-.slider-container .item:nth-child(1) {
+.slider-container img:nth-child(1) {
     margin-left: -60px;
 }
 
