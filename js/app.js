@@ -15,6 +15,12 @@ $("#menu-toggle").click(function() {
     $(".small-menu-wrapper").toggle("active");
 });
 
+function closeMenu() {
+    $('.small-menu-wrapper').css('display', 'none');   
+};
+
+$('.small-menu-content .nav').click(closeMenu);
+
 function shuffleArray(array) {
     array.sort(() => Math.random() - 0.5);
 };
