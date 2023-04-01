@@ -242,6 +242,7 @@ img.bg-color {
 @media (max-width: 560px) {
     .section .row .col {
         flex: 1 0 100%;
+        padding: 0 30px;
     }
 }
 
