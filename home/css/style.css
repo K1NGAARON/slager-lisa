@@ -103,7 +103,11 @@
         font-size: 36px;
     }
 
+    .contact.section .wrapper {
+        padding: 30px;
+    }
+
     .contact.section .wrapper a {
-        font-size: 10px;
+        font-size: 12px;
     }
 }
