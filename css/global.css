@@ -239,6 +239,12 @@ img.bg-color {
     transform: scale(1.02);
 }
 
+@media (max-width: 560px) {
+    .section .row .col {
+        flex: 1 0 100%;
+    }
+}
+
 @media (max-width: 1000px) {
     .section.contact {
         background-image: unset;
