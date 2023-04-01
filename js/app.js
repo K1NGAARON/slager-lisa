@@ -1,7 +1,6 @@
 // STICKY LARGE MENU
 $(document).scroll(function () {
     const header = $('.header');
-    const logo = $('.header .logo');
 
     if ($(this).scrollTop() > header.height()) {
         header.addClass('active');
@@ -16,11 +15,7 @@ $("#menu-toggle").click(function() {
 });
 
 function closeMenu() {
-    $('.small-menu-wrapper').css('display', 'none');   
+    $('.small-menu-wrapper').css('display', 'none');
 };
 
 $('.small-menu-content .nav').click(closeMenu);
-
-function shuffleArray(array) {
-    array.sort(() => Math.random() - 0.5);
-};
