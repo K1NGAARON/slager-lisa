@@ -1,3 +1,64 @@
+const images = [
+    {
+        src: '/home/img/gallery1.jpg',
+    },
+    {
+        src: '/home/img/gallery2.jpg',
+    },
+    {
+        src: '/home/img/gallery3.jpg',
+    },
+    {
+        src: '/home/img/gallery4.jpg',
+    },
+    {
+        src: '/home/img/gallery5.jpg',
+    },
+    {
+        src: '/home/img/gallery6.jpg',
+    },
+    {
+        src: '/home/img/gallery7.jpg',
+    },
+    {
+        src: '/home/img/gallery9.jpg',
+    },
+    {
+        src: '/home/img/gallery10.jpg',
+    },
+    {
+        src: '/home/img/gallery11.jpg',
+    },
+    {
+        src: '/home/img/gallery12.jpg',
+    },
+    {
+        src: '/home/img/gallery13.jpg',
+    },
+    {
+        src: '/home/img/gallery14.jpg',
+    },
+    {
+        src: '/home/img/gallery15.jpg',
+    },
+];
+
+function shuffleArray(array) {
+    array.sort(() => Math.random() - 0.5);
+};
+
+function createGallery(e) {
+    shuffleArray(images);
+    const target = document.querySelector('#gallery-target');
+
+    for (let i = 0; i < images.length; i++) {
+        const template = `
+            <img src="${images[i].src}" alt="By Hauspie">
+        `;
+    target.insertAdjacentHTML("afterbegin", template);
+    }
+};
+
 var count = 0;
 var inc = 0;
 margin = 0;
@@ -39,7 +100,6 @@ function next() {
         }
     }
     slider.style.left = count + "px";
-    // slider.style.left =- 400 + "px";
 }
 
 function prev() {
@@ -54,5 +114,6 @@ function prev() {
         }
     }
     slider.style.left = count + "px";
-    // slider.style.left =+ 400 + "px";
-}
+};
+
+$(document).ready(createGallery);
