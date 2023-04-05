@@ -41,6 +41,18 @@ const images = [
     {
         src: '/home/img/gallery15.jpg',
     },
+    {
+        src: '/home/img/gallery16.jpg',
+    },
+    {
+        src: '/home/img/gallery17.jpg',
+    },
+    {
+        src: '/home/img/gallery18.jpg',
+    },
+    {
+        src: '/home/img/gallery19.jpg',
+    },
 ];
 
 function shuffleArray(array) {
@@ -96,7 +108,7 @@ function next() {
         }
         else {
             inc++;
-            count = count - screen.width;
+            count = count - 300;
         }
     }
     slider.style.left = count + "px";
@@ -110,7 +122,7 @@ function prev() {
         }
         else {
             inc--;
-            count = count + screen.width;
+            count = count + 300;
         }
     }
     slider.style.left = count + "px";
