@@ -1,4 +1,3 @@
-// STICKY LARGE MENU
 $(document).scroll(function () {
     const header = $('.header');
 
@@ -9,7 +8,6 @@ $(document).scroll(function () {
     }
 });
 
-// SMALL MENU
 $("#menu-toggle").click(function() {
     $(".small-menu-wrapper").toggle("active");
 });
