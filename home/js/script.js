@@ -18,7 +18,7 @@ const images = [
         src: '/home/img/gallery6.jpg',
     },
     {
-        src: '/home/img/gallery7.jpg',
+        src: '/home/img/gallery20.jpg',
     },
     {
         src: '/home/img/gallery9.jpg',
@@ -65,7 +65,7 @@ function createGallery(e) {
 
     for (let i = 0; i < images.length; i++) {
         const template = `
-            <img src="${images[i].src}" alt="By Hauspie">
+            <img class="gallery-img" src="${images[i].src}" alt="By Hauspie">
         `;
     target.insertAdjacentHTML("afterbegin", template);
     }
@@ -128,4 +128,6 @@ function prev() {
     slider.style.left = count + "px";
 };
 
-$(document).ready(createGallery);
+$(document).ready(function() {
+    createGallery();
+});

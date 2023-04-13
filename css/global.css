@@ -182,7 +182,7 @@ img.bg-color {
 }
 
 .section.contact {
-    background-image: url('/img/contact-image.jpg');
+    /* background-image: url('/img/contact-image.jpg'); */
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
