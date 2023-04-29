@@ -65,7 +65,7 @@ function createGallery(e) {
 
     for (let i = 0; i < images.length; i++) {
         const template = `
-            <img class="gallery-img" src="${images[i].src}" alt="By Hauspie">
+            <img class="gallery-img" src="${images[i].src}" alt="Chateaubriad By Hauspie">
         `;
     target.insertAdjacentHTML("afterbegin", template);
     }
