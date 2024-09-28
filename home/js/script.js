@@ -15,9 +15,6 @@ const images = [
         src: '/home/img/gallery5.jpg',
     },
     {
-        src: '/home/img/gallery6.jpg',
-    },
-    {
         src: '/home/img/gallery20.jpg',
     },
     {
@@ -43,9 +40,6 @@ const images = [
     },
     {
         src: '/home/img/gallery16.jpg',
-    },
-    {
-        src: '/home/img/gallery17.jpg',
     },
     {
         src: '/home/img/gallery18.jpg',
