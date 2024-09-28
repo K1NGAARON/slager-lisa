@@ -1,0 +1,9 @@
+.section .row.align-start {
+    align-items: flex-start;
+}
+
+@media (max-width: 560px) {
+    .banner.section h1, .banner.section p {
+        width: 100%;
+    }
+}
