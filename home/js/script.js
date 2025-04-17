@@ -15,7 +15,13 @@ const images = [
         src: '/home/img/gallery5.jpg',
     },
     {
-        src: '/home/img/gallery20.jpg',
+        src: '/home/img/gallery6.jpg',
+    },
+    {
+        src: '/home/img/gallery7.jpg',
+    },
+    {
+        src: '/home/img/gallery8.jpg',
     },
     {
         src: '/home/img/gallery9.jpg',
@@ -25,27 +31,6 @@ const images = [
     },
     {
         src: '/home/img/gallery11.jpg',
-    },
-    {
-        src: '/home/img/gallery12.jpg',
-    },
-    {
-        src: '/home/img/gallery13.jpg',
-    },
-    {
-        src: '/home/img/gallery14.jpg',
-    },
-    {
-        src: '/home/img/gallery15.jpg',
-    },
-    {
-        src: '/home/img/gallery16.jpg',
-    },
-    {
-        src: '/home/img/gallery18.jpg',
-    },
-    {
-        src: '/home/img/gallery19.jpg',
     },
 ];
 
