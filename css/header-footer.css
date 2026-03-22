@@ -39,8 +39,7 @@
 
 .header .logo,
 .footer .logo {
-    width: 100px;
-    border-radius: 50%;
+    width: 200px;
 }
 
 .header .nav-logo {
@@ -112,8 +111,8 @@
 
 .footer {
     min-height: unset;
-    color: var(--white);
-    background-color: var(--black);
+    color: var(--black);
+    background-color: #fafafa;
 }
 
 .footer .row {
